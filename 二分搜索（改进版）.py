@@ -31,4 +31,4 @@ def selectionsort(arr):
     return newArr
 
 
-print(search(selectionsort([3, 1, 2, 4]), 3))
+print(search(selectionsort([3, 1, 2, 4]), 5))
