@@ -7,10 +7,10 @@ print(sum([1,2,3,4,5]))
 '''
 
 
-def sumpro(list):
-    if list == []:
+def supersum(arr):
+    if arr == []:
         return 0
-    return list[0] + sumpro(list[1:])
+    return arr[0] + supersum(arr[1:])
 
 
-print(sumpro([1, 2, 3]))
+print(supersum([1, 2, 3, 4, 5]))
