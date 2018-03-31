@@ -8,3 +8,4 @@ def greet2(name):
 def bye():
 	print("ok bye!")
 greet("李岩峰")
+print("这个新的主题还是挺好看的啊")
