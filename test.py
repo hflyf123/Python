@@ -1,2 +1,1 @@
-import sys
-print(sys.path)
+python -c "import sys; print sys.getdefaultencoding()"
