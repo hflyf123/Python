@@ -6,5 +6,9 @@
 
 import os
 import sys
-print("测试一下代码提示的功能是否正常")#你已经一周多没有学习了，你自己看着办
-print(sys.path)
+print(sys.version)
+print("测试一下代码提示的功能是否正常")
+expression_list=[1,2,3,4,5]
+for a in expression_list:
+    print(a)
+    
