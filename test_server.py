@@ -10,5 +10,5 @@ s.listen(5)
 while True:
     c, addr =s.accept()
     print('连接地址', addr)
-    c.send('hello')
+    c.send(b'hello')
     c.close()
