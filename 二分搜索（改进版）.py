@@ -26,13 +26,10 @@ def findsmallest(arr):
 def selectionsort(arr):
     newArr = []
     for i in range(len(arr)):
-        smallest_index = findsmallest(arr)
+        smallest_index = findsmallest(arr)  
         newArr.append(arr.pop(smallest_index))
     return newArr
 
 
-<< << << < HEAD
 print(search(selectionsort([3, 1, 2, 4]), 5))
-== == == =
 print(search(selectionsort([3, 1, 2, 3, 5, 6, 7]), 3))
->>>>>> > 5a7fb33efe1b66a47375933bc23a4f7214dfb043
