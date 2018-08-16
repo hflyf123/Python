@@ -21,11 +21,6 @@ class Solution:
         for i in range(length):
             matrix[i] = matrix[i][::-1]
 
-        
-
-        
-
-
 
 def main():
     matrix = [
